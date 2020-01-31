@@ -124,6 +124,10 @@ body,html, .container{
     height: 100%;
 }
 
+.why {
+    background-color: white;
+    clip-path: polygon(72% 11%, 30% 20%, 1% 52%, 16% 81%, 53% 95%, 96% 75%, 100% 36%);
+}
 @keyframes move-left{
     0%{
         left: 0%;
