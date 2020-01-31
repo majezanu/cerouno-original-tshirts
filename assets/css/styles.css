@@ -114,7 +114,6 @@ body,html, .container{
     height: 100%;
 }
 
-
 @keyframes move-left{
     0%{
         left: 0%;
