@@ -43,7 +43,34 @@ body,html, .container{
     width: 100%;
 }
 
-
+.gallery {
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    padding: 64px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.tshirt {
+    width: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+.tshirt1{
+    width: 100%;
+    background: url(https://image.freepik.com/free-psd/black-t-shirts-mockup-front-back-used-as-design-template_34168-864.jpg);
+    height: 100%;
+}
+.tshirt2{
+    background: url(../img/tshirt-mockup.jpg);
+    background-color: black;
+    background-size: cover;
+}
 
 @keyframes move-left{
     0%{
