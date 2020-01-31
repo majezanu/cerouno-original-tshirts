@@ -25,7 +25,7 @@
                                 <a class="nav-link" href="index.html#description">Galería</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a class="nav-link" href="index.html#contact">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -81,6 +81,81 @@
             </div>
         </div>
     </div>
+    <div class="container contact" id="contact">
+        <div class="row text-white align-items-center">
+            <div class="col-1"></div>
+            <div class="col-5 align-self-center">
+                <div >
+                    <h1>Contacto</h1>
+                    <p>
+                        ¿Tienes algunda duda?, no dudes en contactarnos.
+                        <br>
+                        Estamos para atanderte 24/7 los 365 días del año.</p>
+                </div>
+                
+               
+            </div>
+            <div class="col-6 align-self-center">
+                <div class="row">
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form id="contact-form" name="contact-form" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="email" name="email" class="form-control">
+                                        <label for="email" class="">Correo electrónico</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <label for="subject" class="">Asunto</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+            
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        <label for="message">Mensaje</label>
+                                    </div>
+            
+                                </div>
+                            </div>
+                        </form>
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>Mérida, Yucatán, 97203, MX</p>
+                            </li>
+            
+                            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                <p>+52 9999987166</p>
+                            </li>
+            
+                            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                <p>majezanu@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <div class="home-newsletter">
         <div class="container">
             <div class="row">
@@ -98,8 +173,9 @@
             </div>
         </div>
     </div>
+    
     <footer class="page-footer pt-4">
-        <div class="footer-copyright fixed-bottom text-center py-3">© 2020 Copyright:
+        <div class="footer-copyright fixed-bottom text-center py-3 text-white">© 2020 Copyright:
             <a href="https://www.google.com"> GrimaTech.com</a>
           </div>
     </footer>
