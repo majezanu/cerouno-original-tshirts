@@ -43,7 +43,76 @@ body,html, .container{
     width: 100%;
 }
 
+.gallery {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    padding: 64px;
+    box-sizing: border-box;
+    height: 100%;
+}
+.tshirt {
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+.tshirt1{
+    width: 100%;
+    background: url(https://image.freepik.com/free-psd/black-t-shirts-mockup-front-back-used-as-design-template_34168-864.jpg);
+    height: 100%;
+}
+.tshirt2{
+    background: url(../img/tshirt-mockup.jpg);
+    background-size: cover;
+}
 
+
+.home-newsletter {
+    padding: 80px 0;
+}
+    
+.home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+.home-newsletter .single h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px; 
+}
+.home-newsletter .single .form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-color: transparent;
+    border-radius: 20px 0 0 20px; 
+}
+.home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #243c4f; 
+}
+.home-newsletter .single .btn {
+    min-height: 50px; 
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+}
+
+.contact {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    padding: 64px;
+    box-sizing: border-box;
+    height: 100%;
+}
 
 @keyframes move-left{
     0%{
